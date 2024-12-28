@@ -49,7 +49,7 @@ ABOUT_TXT = "<b>» ᴏᴡɴᴇʀ: <a href=https://t.me/TeenGohan002>ɢᴏʜᴀɴ
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - <a href=https://t.me/Mikey_anime_team>ᴍᴀᴛ ᴀɴɪᴍᴇ</a></b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6911235730 5585016974").split()):
+    for x in (os.environ.get("ADMINS", "5355745915 6911235730 5585016974").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
