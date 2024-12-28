@@ -79,10 +79,10 @@ async def start_command(client: Client, message: Message):
         return
     else:
         reply_markup=InlineKeyboardMarkup([
-                    [InlineKeyboardButton("• ғᴏʀ ᴍᴏʀᴇ •", url='https://t.me/anime_sub_society')],
+                    [InlineKeyboardButton("• ғᴏʀ ᴍᴏʀᴇ •", url='https://t.me/Mikey_anime_team')],
                     [InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data='about'),
-                     InlineKeyboardButton("ʜᴇʟᴘ •", url='https://t.me/ahss_help_zone')],
-                    [InlineKeyboardButton("• ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ •", url='https://t.me/society_network')],
+                     InlineKeyboardButton("ʜᴇʟᴘ •", url='https://t.me/straw_hat_yonko')],
+                    [InlineKeyboardButton("• ʜᴀɴᴛᴀɪ ᴄʜᴀɴɴᴇʟ •", url='https://t.me/+7Ext4kkaB9ZmZTRl')],
                 ])
         await message.reply_photo(
             photo= START_PIC,
