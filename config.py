@@ -43,7 +43,7 @@ START_PIC = os.environ.get("START_PIC", "https://envs.sh/W9M.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/W9M.jpg")
 
 HELP_TXT = "https://t.me/AHSS_HELP_ZONE"
-ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n⌬ ᴏᴡɴᴇʀ : <a href=https://t.me/rin_nanakura>ʀɪɴ</a>\n⌬ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Ongoing_society'>ᴏɴɢᴏɪɴɢ sᴏᴄɪᴇᴛʏ</a>\n⌬ ᴀɴɪᴍᴇ sᴏᴄɪᴇᴛʏ : <a href='https://t.me/anime_sub_society'>ᴀɴɪᴍᴇ sᴏᴄɪᴇᴛʏ</a>\n⌬ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/team_society_1'>ʙᴏᴛ sᴏᴄɪᴇᴛʏ</a>\n⌬ sᴏᴄɪᴇᴛʏ ᴄʜᴀᴛ ᴢᴏɴᴇ : <a href='https://t.me/ahss_help_zone'>ᴄʜᴀᴛ ᴢᴏɴᴇ</a>\n࿂ Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : <a href='https://t.me/i_killed_my_clan'>❰⏤͟͞ 𝚯𝗕𝗜𝗧𝗢 -//-❱</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
+ABOUT_TXT = "<b>» ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Cosmic_Awaken>ᴏʙɪᴛᴏ</a>\n» ᴍᴀᴛ ᴀɴɪᴍᴇ : <a href=https://t.me/Mikey_anime_team>ᴍᴀᴛ ᴀɴɪᴍᴇ</a>\n» ʜᴀɴᴛᴀɪ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/+7Ext4kkaB9ZmZTRl>ᴍᴀᴛ ᴀɴɪᴍᴇ</a>\n» ʙᴀᴄᴋ ᴜᴘ : <a href=https://t.me/+ufHLR0GHOSNkNjI1>ᴏɴɢᴏɪɴɢ sᴏᴄɪᴇᴛʏ</a>\n» sᴏᴄɪᴇᴛʏ ɴᴇᴡs : <a href=https://t.me/MangaStuffs>sᴏᴄɪᴇᴛʏ ɴᴇᴡs</a>\n» ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Cosmic_Awaken>ᴏʙɪᴛᴏ</a></b>"
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - <a href=https://t.me/Anime_Sub_Society>ᴀɴɪᴍᴇ sᴏᴄɪᴇᴛʏ</a></b>")
