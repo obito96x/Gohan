@@ -22,13 +22,13 @@ API_HASH = os.environ.get("API_HASH", "4e81464b29d79c58d0ad8a0c55ece4a5")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002402749774"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5585016974"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6911235730"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Sukuna:Sukuna123@cluster0.xya73s9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://gohan:gohanxbot@cluster0.xoc5s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
@@ -39,17 +39,17 @@ FORCESUB_CHANNEL4 = int(os.environ.get("FORCESUB_CHANNEL4", "-1002141943412"))
                                        
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-START_PIC = os.environ.get("START_PIC", "https://envs.sh/W9M.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/W9M.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/opu.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/opu.jpg")
 
 HELP_TXT = "https://t.me/AHSS_HELP_ZONE"
 ABOUT_TXT = "<b>» ᴏᴡɴᴇʀ: <a href=https://t.me/TeenGohan002>ɢᴏʜᴀɴ</a>\n» ᴍᴀᴛ ᴀɴɪᴍᴇ : <a href=https://t.me/Mikey_anime_team>ᴍᴀᴛ ᴀɴɪᴍᴇ</a>\n» ʜᴀɴᴛᴀɪ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/+7Ext4kkaB9ZmZTRl>ʜᴀɴᴛᴀɪ ᴄʜᴀɴɴᴇʟ</a>\n» ʙᴀᴄᴋ ᴜᴘ : <a href=https://t.me/+ufHLR0GHOSNkNjI1>ʙᴀᴄᴋ ᴜᴘ</a>\n» ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Cosmic_Awaken>ᴏʙɪᴛᴏ</a></b>"
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - <a href=https://t.me/Anime_Sub_Society>ᴀɴɪᴍᴇ sᴏᴄɪᴇᴛʏ</a></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - <a href=https://t.me/Mikey_anime_team>ᴍᴀᴛ ᴀɴɪᴍᴇ</a></b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5585016974").split()):
+    for x in (os.environ.get("ADMINS", "6911235730 5585016974").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -69,7 +69,7 @@ DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "​🚫Pʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋ ꜰᴏʀ​ - <a href=https://t.me/Anime_Sub_Society>ᴀɴɪᴍᴇ sᴏᴄɪᴇᴛʏ</a>"
 
-ADMINS.append(OWNER_ID)
+ADMINS.append(6911235730)
 ADMINS.append(5585016974)
 
 LOG_FILE_NAME = "filesharingbot.txt"
