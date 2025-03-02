@@ -46,10 +46,10 @@ HELP_TXT = "https://t.me/AHSS_HELP_ZONE"
 ABOUT_TXT = "<b>» ᴏᴡɴᴇʀ: <a href=https://t.me/TeenGohan002>ɢᴏʜᴀɴ</a>\n» ᴍᴀᴛ ᴀɴɪᴍᴇ : <a href=https://t.me/Mikey_anime_team>ᴍᴀᴛ ᴀɴɪᴍᴇ</a>\n» ʜᴀɴᴛᴀɪ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/+7Ext4kkaB9ZmZTRl>ʜᴀɴᴛᴀɪ ᴄʜᴀɴɴᴇʟ</a>\n» ʙᴀᴄᴋ ᴜᴘ : <a href=https://t.me/+ufHLR0GHOSNkNjI1>ʙᴀᴄᴋ ᴜᴘ</a>\n» ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Cosmic_Awaken>ᴏʙɪᴛᴏ</a></b>"
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - <a href=https://t.me/Mikey_anime_team>ᴍᴀᴛ ᴀɴɪᴍᴇ</a></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5355745915 6911235730 5924136853 5585016974").split()):
+    for x in (os.environ.get("ADMINS", "5355745915 6911235730 5924136853 6802736263 5585016974").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
